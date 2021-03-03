@@ -1,0 +1,203 @@
+<resources>
+    <string name="url" translatable="false">http://157.245.65.24/api/</string>
+    <string name="app_name">Talya</string>
+    <string name="address">المنشية - مربع 29 - منزل رقم5 - شرق مسجد السيد سنهوري الخرطوم السودان</string>
+    <string name="contact_info">معلومات الأتصال</string>
+    <string name="call_phone">+249 154885999</string>
+    <string name="sells_call_phone1">+249 912992597</string>
+    <string name="sells_call_phone2">+249 912323953</string>
+    <string name="sells_call_phone3">+249 912164238</string>
+    <string name="sells_call_phone4">+249 912174356</string>
+
+    <string name="subject">الموضوع</string>
+    <string name="your_name">اسمك</string>
+    <string name="your_email">ايميلك</string>
+    <string name="message">الرسالة</string>
+    <string name="press_back">"اضغط خلف مرة اخرى للخروج من التطبيق "</string>
+    <string name="fill_error">الرجاء ملئ كل البيانات</string>
+    <string name="try_later">الرجاء المحاولة مرة اخرى</string>
+    <string name="label_error_incorrect_phone">رقم الهاتف غير صحيح</string>
+    <string name="edit">تعديل</string>
+    <string name="long_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel feugiat elit. Quisque sed viverra turpis. Pellentesque a risus quis nunc mattis pretium. Maecenas tempus congue ante, eu viverra sem aliquet nec. Donec in lacus turpis. Donec eget placerat turpis. Vestibulum at erat bibendum, auctor neque sit amet, faucibus nisl.Phasellus consequat ultricies suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ligula nulla, bibendum quis efficitur at, laoreet vitae ex. Ut sodales quam vitae augue lobortis lacinia. Aenean vitae bibendum velit. Cras placerat elit non mattis porttitor. Donec nulla nibh, iaculis vel risus gravida, laoreet rhoncus diam. Integer mollis tortor nec augue rutrum, sed commodo urna tincidunt. Aliquam eget orci libero. Nam vel posuere lacus. Morbi malesuada mi ac finibus finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In hac habitasse platea dictumst. Nullam ullamcorper ex.</string>
+    <string name="insure_dialog">"سيتم التأكد من رقم الهاتف "</string>
+    <string name="is_this_ok">"هل تريد الأستمرار او تعديل الرقم "</string>
+    <string name="check_internet">الرجاء التأكد من اتصالك بالأنترنت</string>
+    <string name="profile">ملف العميل</string>
+    <string name="media">المقالات</string>
+    <string name="offers">العروض</string>
+    <string name="services">الخدمات</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="issueR">شكوى</string>
+    <string name="messageR">رسالة</string>
+    <string name="questionTest">السؤال</string>
+    <string name="answer">الجواب</string>
+    <string name="blueprint">المخططات</string>
+    <string name="register_service">التسجيل</string>
+    <string name="verify_phone">تأكيد رقم الهاتف</string>
+    <string name="build_future">نوفر رصيدنا المعرفي لمساعدتك في اتخاذ قرارات عقارية ناجحة</string>
+    <string name="enter_phone">ادخل رقم الهاتف</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="verify_pin">تأكيد الرمز</string>
+    <string name="talya_about">بهدف تطوير سوق العقارات في السودان، تأسست تالية العقارية عام 2012 كمؤسسة سودانية تركز على جعل العقار في السودان أحد الأوراق الرابحة لصنع أسلوب حياة مميز، باعتباره سوق يتشارك فيه الجميع ما بين مالك، ومستأجر أو مُدخر ومستثمر. جاعلين من مخططاتنا المتمركزة في منطقة جنوب الخرطوم وشمال الجزيرة، أرضية ثابتة نبني عليها الكثير من الخدمات والمعاملات العقارية لنمنح عملائنا التجربة الأفضل والأكثر نجاحاً، عبر رصيد معرفي وخبرة متراكمة في مجال العقار لضمان التصاعد والكفاءة، وعقول شابة تُضفي لمسة ابتكارٍ وتجديد، فيكون نتاجها لغة جديدة للحركة العقارية في السودان</string>
+    <string name="talya_email">info@talya-properties.com</string>
+    <string name="wrtie_message">اكتب الرسالة</string>
+    <string name="send_message">ارسل الرسالة</string>
+    <string name="faqs">الأسئلة المتكررة</string>
+    <string name="media_center">المقالات</string>
+    <string name="successfull_sent">تم إستلام طلبك بنجاح. سيتم التواصل معك في اقرب فرصة</string>
+    <string name="register_desc">
+من خلال خدمة التسجيل يمكن لعملائنا الان تفويض تالية العقارية بمتابعة واكمال كافة الاجراءات القانونية و الحكومية المتعلقة بتحويل الملكية بكافة انواعها
+        \n
+- تحميل إثبات هوية ساري المفعول بطاقة قومية أو جواز لمالك القطعة .
+        \n
+- حضور المشتري شخصيا أو من ينوبه بتوكيل رسمي, لعمل توكيل لموظف التسجيلات.
+        \n
+- دفع رسوم الفاتورة المبدئية المقررة للتسجيل.
+        \n
+    </string>
+    <string name="reg_doc">
+
+ -اثبات هوية ساري المفعول (بطاقة قومية- جواز سفر ساري).
+
+\n
+        -ايصال مالي بقيمة الفاتورة المبدئية
+    </string>
+    <string name="upgrade_desc">عن طريق خدمة الترقية, يمكن لعملائنا الترقية والانتقال من مخطط لآخر بعد إكتمال السداد دون تعقيد أو تقييد.
+        \n
+        -اكتمال سداد الأقساط في حال الشراء بالأقساط.
+        \n
+ - تشتري تالية القطعة مع خصم عمولة الشركة 5%
+        \n
+ - يتم تنفيذ البيع في المخطط الجديد الذي يختاره العميل.
+        \n
+ - يتم الإخطار بفرص الاستثمار الأفضل للراغبين في الخدمة.
+    </string>
+    <string name="republish_desc">
+نقدم خدمة اعادة العرض كمنصة تمكن عملائنا من اعادة عرض و بيع القطع التي يملكونها داخل تالية. عبر شبكة علاقات ممتدة و فريق تسويق محترف تمثل الخدمة مزيجا متكاملا من التسويق والرقابة القانونية والمتابعة الإدارية لكافة مراحل العرض و البيع و الاستلام.
+        \n
+ -اكتمال سداد الأقساط في حال الشراء بالاقساط.
+        \n
+ -ملئ استمارة عرض القطعة (تحديد سعر البيع و طريقة السداد و الفترة الزمنية)
+        \n
+ -بموجب الاستمارة يتم تغيير حالة القطعة  إلى معروضة في الموقع و نظام تالية الداخلي.
+        \n
+ -يتم بيع القطعة و صرف المستحقات.
+
+    </string>
+    <string name="upgrade">الترقية</string>
+    <string name="republish">إعادة العرض</string>
+    <string name="blueprint_name">اسم المخطط</string>
+    <string name="land_num">رقم القطعة</string>
+    <string name="documents">المستندات</string>
+    <string name="land_reg">تسجيل القطعة</string>
+    <string name="choose_reg_type">اختر نوع التسجيل</string>
+    <string name="inside_reg">تسجيل داخل مخططات تالية</string>
+    <string name="outside_reg">تسجيل خارج مخططات تالية</string>
+    <string name="attach_file">ارفاق المستندات</string>
+    <string name="current_offers">العروض الحالية</string>
+    <string name="percentage_example">50%</string>
+    <string name="old_offers">العروض السابقة</string>
+    <string name="location">الموقع</string>
+    <string name="advantage">المميزات</string>
+    <string name="spaces">المساحات</string>
+    <string name="added_value">فائدة</string>
+    <string name="advance">مقدم</string>
+    <string name="month">شهر</string>
+    <string name="plot_total">القطع الكلية</string>
+    <string name="plot_sold">القطع المباعة</string>
+    <string name="plot_rest">القطع المتبقية</string>
+    <string name="open_map">افتح الخريطة</string>
+    <string name="no_profile">لا يوجد ملف للمخطط حاليا</string>
+    <string name="space">المساحة</string>
+    <string name="meter_price">سعر المتر</string>
+    <string name="cat">التصنيف</string>
+    <string name="price_cash">السعر(نقداً)</string>
+    <string name="plot_status">حالة القطعة</string>
+    <string name="offer">العرض</string>
+    <string name="contact_req">طلب التواصل</string>
+    <string name="sdg">جنيه</string>
+    <string name="reserve_plot">حجز القطعة</string>
+    <string name="date_choose">حدد التاريخ</string>
+    <string name="date_error">الرجاء اختيار تاريخ</string>
+    <string name="price_usd">السعر (دولار)</string>
+    <string name="usd">دولار</string>
+    <string name="contact_with_sells">التواصل مع فريق المبيعات</string>
+    <string name="welcome">مرحباً ,</string>
+    <string name="number_not_found">لا يوجد هذا الرقم بسجلاتنا</string>
+    <string name="image1">الصورة 1</string>
+    <string name="image2">الصورة 2</string>
+    <string name="image3">الصورة 3</string>
+    <string name="upload_image_error">الرجاء رفع المستندات اولا</string>
+    <string name="signout">تسجيل الخروج</string>
+    <string name="clients">العملاء</string>
+    <string name="sells_size">حجم مبيعات الوكلاء</string>
+    <string name="plots">الأراضي</string>
+    <string name="plot_no">رقم القطعة</string>
+    <string name="no_data">لا يوجد لديك بيانات حاليا</string>
+    <string name="payment_date">تاريخ القسط</string>
+    <string name="payment_amount">قيمة القسط</string>
+    <string name="recipt_date">تاريخ الدفع</string>
+    <string name="payment_method">عن طريق</string>
+    <string name="payment_status">حالة الدفعية</string>
+    <string name="payment_no">رقم المعاملة</string>
+    <string name="payment_comments">تعليقات</string>
+    <string name="paid">تم الدفع</string>
+    <string name="not_paid">لم يتم الدفع</string>
+    <string name="payments_date">تاريخ الدفعيات</string>
+    <string name="continueS">استمر</string>
+    <string name="sells_no">عدد مبيعات الوكلاء</string>
+    <string name="attachment_note">قم بإرفاق جميع المستندات المطلوبه، الحد الأقصى ثلاثة</string>
+    <string name="advance_percentage">نسبة المقدم</string>
+    <string name="month_no">عدد الشهور</string>
+    <string name="calculate">أحسب</string>
+    <string name="price_after">سعر القطعة بعد العرض</string>
+    <string name="price_per_month">قيمة القسط (شهرياّ)</string>
+    <string name="percentage_more_error">الرجاء ادخال نسبة اكبر من او يساوي نسبة العرض الأساسي</string>
+    <string name="percentage_error">"النسبة يجب ان تكون اقل من 100 "</string>
+    <string name="note">ملاحظة</string>
+    <string name="calculate_offer">حساب العرض</string>
+    <string name="month_error">يجب ان يكون عدد الشهور اقل من عدد شهور العرض</string>
+    <string name="attach_one_file">ارفق المستند</string>
+    <string name="dont_have_account">"ليس لديك حساب؟ "</string>
+    <string name="create_account">إنشاء حساب</string>
+    <string name="number_already_signed_up_error">الرقم مسجل مسبقاّ</string>
+    <string name="notification">تنبيه</string>
+    <string name="bellow_plots">القطع ادناه هي القطع المتاحة فقط اختر رقم القطعة  ثم افتح الصورة اعلاه لمعرفة موقعها في المخطط</string>
+    <string name="only_talya_customers">هذه الخدمة متاحة لعملاء تالية فقط</string>
+    <string name="soldout">مباعة</string>
+    <string name="has_offer">يوجد عرض</string>
+    <string name="normal_plot">عادي</string>
+    <string name="special_plot">مميز</string>
+    <string name="investments">حجم الأستثمار</string>
+    <string name="incentives">الحوافز</string>
+    <string name="extra_total">إجمالي الحافز</string>
+    <string name="extra_quantity">حافز العدد</string>
+    <string name="extra_amount">حافز الكمية</string>
+    <string name="deserved">المستحق من الحافز</string>
+    <string name="current_price">السعر الحالي</string>
+    <string name="current_meter_price">سعر المتر الحالي</string>
+    <string name="action_employee">الموظف المنفذ</string>
+    <string name="follower_employee">الموظف المتابع</string>
+    <string name="continue_insure">هل تريد الأستمرار</string>
+    <string name="reserve_note">بإمكانك القيام بحجز القطعة للعميل لمدة 3 أيام حتى يقوم العميل بالتنفيذ</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="extra_basic">الحافز الأساسي</string>
+    <string name="incentive_plot">حافز القطعة</string>
+    <string name="server_error">لا يوجد اتصال بالمخدم</string>
+    <string name="price_in_purchase">السعر عند الشراء</string>
+    <string name="meter_price_in_purchase">سعر المتر عند الشراء</string>
+    <string name="please_wait">الرجاء الأنتظار</string>
+    <string name="agent_loading">كن جزءا أصيلا من مجتمع تالية الممتد داخل و خارج الوطن.</string>
+    <string name="client_loading">تمتع بمتابعة و إدارة عقاراتك من هاتفك الجوال.</string>
+    <string name="offers_title">تمتع بعروضنا المتنوعة مع إمكانية التحكم في العرض</string>
+    <string name="blueprint_title">اختر ما يناسبك مع باقة متنوعة من المخططات المميزة و الواعدة مع خيارات متعددة من المساحات و الاسعار و العروض</string>
+    <string name="services_title">تمتع بخدمات ما بعد البيع مع تالية بعد اكتمال سداد الأقساط</string>
+    <string name="period">الفترة</string>
+    <string name="period_per_month">الفترة بالشهور</string>
+    <string name="status_desc">توضيح حالة القطعة</string>
+    <string name="from_profile">طلب الخدمة يتم من الملف الشخصي للعميل</string>
+    <string name="total_desereved">مجموع المستحقات</string>
+    <string name="rate_q">كيف كانت تجربتك مع تاليا؟</string>
+    <string name="show_how_q">أرنا كيف كانت  تجربتك لأننا نهتم براحتك !</string>
+</resources>

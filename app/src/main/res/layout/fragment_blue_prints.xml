@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    tools:context=".BluePrints">
+
+    <ScrollView
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarThumbVertical="@color/secondary_text"
+        android:verticalScrollbarPosition="defaultPosition">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.gridlayout.widget.GridLayout
+                android:id="@+id/section_grid"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:animateLayoutChanges="true"
+                android:background="@android:color/transparent"
+                android:fadeScrollbars="true"
+                android:filterTouchesWhenObscured="false"
+                android:fitsSystemWindows="false"
+                android:foregroundGravity="center"
+                android:horizontalSpacing="10dp"
+                android:overScrollMode="ifContentScrolls"
+                android:scrollbars="vertical"
+                android:stretchMode="spacingWidth"
+                android:verticalScrollbarPosition="defaultPosition"
+                android:verticalSpacing="10dp" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/main_loading"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="false"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/colorPrimaryDark"
+        android:scrollbarStyle="outsideOverlay"
+        android:visibility="gone" />
+</FrameLayout>

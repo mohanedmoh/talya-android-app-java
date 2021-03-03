@@ -1,0 +1,51 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="pinViewStyle">@style/PinWidget.PinView</item>
+        <item name="navigationViewStyle">@style/BottomNavigation</item>
+        <item name="cardViewStyle">@style/BottomNavigation</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">@font/handlee</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <style name="PinWidget" />
+
+    <style name="PinWidget.PinView">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="BottomNavigation">
+        <item name="android:background">@color/white</item>
+        <item name="itemBackground">@color/white</item>
+        <item name="itemIconTint">@color/primary_text</item>
+        <item name="itemTextColor">@color/primary_text</item>
+        <item name="paddingStart">@dimen/bottom_navigation_padding</item>
+        <item name="paddingEnd">@dimen/bottom_navigation_padding</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/main_bg</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:fontFamily">@font/handlee</item>
+    </style>
+
+</resources>

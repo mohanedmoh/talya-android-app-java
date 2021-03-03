@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    tools:context=".Media">
+
+    <ScrollView
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@color/secondary_text">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.35"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/handlee"
+                    android:gravity="center"
+                    android:text="@string/media_center"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:id="@+id/section_grid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:animateLayoutChanges="true"
+                    android:background="@android:color/transparent"
+                    android:fadeScrollbars="true"
+                    android:filterTouchesWhenObscured="false"
+                    android:fitsSystemWindows="false"
+                    android:foregroundGravity="center"
+                    android:horizontalSpacing="10dp"
+                    android:overScrollMode="ifContentScrolls"
+                    android:paddingTop="20dp"
+                    android:scrollbars="vertical"
+                    android:stretchMode="spacingWidth"
+                    android:verticalScrollbarPosition="defaultPosition"
+                    android:verticalSpacing="10dp"
+                    app:alignmentMode="alignMargins" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/main_loading"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="false"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/colorPrimaryDark"
+        android:scrollbarStyle="outsideOverlay"
+        android:visibility="gone" />
+</FrameLayout>

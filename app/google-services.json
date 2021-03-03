@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "415823469135",
+    "firebase_url": "https://talya-1e8e3.firebaseio.com",
+    "project_id": "talya-1e8e3",
+    "storage_bucket": "talya-1e8e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415823469135:android:080f16754ecd607af7283a",
+        "android_client_info": {
+          "package_name": "com.savvy.talya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415823469135-1lpfc7ell10aveqklinbcb4298ecbvsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCvn6QfSyj6a2K0Ke1aOfztGYYtKhYIBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415823469135-1lpfc7ell10aveqklinbcb4298ecbvsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg">
+
+
+    <LinearLayout
+        android:id="@+id/phoneLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"
+            android:background="@null">
+
+            <ImageView
+                android:layout_width="270dp"
+                android:layout_height="220dp"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/future" />
+        </RelativeLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/section_cardView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.1"
+            android:foregroundGravity="center"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="7dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/secondary_bg"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:weightSum="4">
+
+                <RelativeLayout
+                    android:layout_weight="1.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/handlee"
+                        android:gravity="center|center_vertical"
+                        android:paddingTop="30dp"
+                        android:paddingBottom="30dp"
+                        android:text="@string/build_future"
+                        android:textColor="@color/primary_text" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.hbb20.CountryCodePicker
+                        android:id="@+id/ccp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight=".3"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        app:contentColor="@color/primary_text"
+                        app:defaultCode="249" />
+
+                    <EditText
+                        android:id="@+id/phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:layout_weight=".2"
+                        android:fontFamily="@font/handlee"
+                        android:hint="@string/enter_phone"
+                        android:inputType="phone"
+                        android:maxLength="9"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:shadowColor="@color/primary_text"
+                        android:singleLine="true"
+                        android:soundEffectsEnabled="true"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/primary_text"
+                        android:textColorHint="@color/primary_text" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.45"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/create_account"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/handlee"
+
+                        android:gravity="center_vertical"
+                        android:text="@string/create_account"
+                        android:textColor="@color/secondary_text" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/handlee"
+
+                        android:gravity="center_vertical"
+                        android:text="@string/dont_have_account"
+                        android:textColor="@color/primary_text" />
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.6"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+
+                    <Button
+                        android:id="@+id/btn_send"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:background="@color/main_bg"
+                        android:fontFamily="@font/handlee"
+                        android:text="@string/login"
+                        android:textAllCaps="false"
+                        android:textColor="@color/secondary_text"
+                        android:textSize="16sp"
+                        android:visibility="visible" />
+                </RelativeLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/logoyellow"
+            app:civ_border_color="@color/secondary_text"
+            app:civ_border_width="2dp"
+            app:civ_circle_color="@color/main_bg"
+            app:civ_shadow="false"
+            app:civ_shadow_radius="10dp" />
+
+    </RelativeLayout>
+</FrameLayout>

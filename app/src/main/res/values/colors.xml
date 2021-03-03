@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffca0a</color>
+    <color name="colorPrimaryDark">#e8b707</color>
+    <color name="colorAccent">@color/colorPrimaryDark</color>
+    <color name="primary_text">#9b9b9b</color>
+    <color name="bar_yellow_color">#685619</color>
+    <color name="gray_card">#3e3d3d</color>
+    <color name="bar_gray_color">#595959</color>
+    <color name="secondary_text">#ffca0a</color>
+    <color name="secondary_text60">#5b4d1c</color>
+    <color name="old_bg">#4d4d4d</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="edit_border">#595858</color>
+    <color name="white">#ffffff</color>
+    <color name="main_bg">#262525</color>
+    <color name="secondary_bg">#2f2e2e</color>
+    <color name="red">#E53935</color>
+    <color name="rating_star_color">#fba61c</color>
+
+    <color name="trans60">#99000000</color>
+    <color name="colorPrimaryPix">@color/colorPrimary</color>
+    <color name="colorPrimaryLightPix">@color/colorPrimaryDark</color>
+
+</resources>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:id="@+id/layout"
+    tools:context=".BluePrint_profile">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/layoutN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/section_cardView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1.2"
+                android:foregroundGravity="center"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="0dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/logoyellow" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/trans60"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/handlee"
+                            android:padding="10dp"
+                            android:text="@string/faqs"
+                            android:textColor="@color/secondary_text"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/note"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/handlee"
+                            android:padding="5dp"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <include
+                android:id="@+id/blueprint_details_include"
+                layout="@layout/blueprint_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1.2"
+                android:foregroundGravity="center"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="0dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/secondary_bg"
+                    android:orientation="horizontal"
+                    android:padding="20dp"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/plot_rest"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/rounded_bg"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="12dp"
+                                android:paddingTop="17dp"
+                                android:paddingEnd="12dp"
+                                android:paddingBottom="17dp"
+                                android:text="@string/percentage_example"
+                                android:textAlignment="center"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/handlee"
+                            android:gravity="center"
+                            android:paddingTop="20dp"
+                            android:text="@string/plot_rest"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/plot_sold"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/rounded_bg"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="12dp"
+                                android:paddingTop="17dp"
+                                android:paddingEnd="12dp"
+                                android:paddingBottom="17dp"
+                                android:text="@string/percentage_example"
+                                android:textAlignment="center"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/handlee"
+                            android:gravity="center"
+                            android:paddingTop="20dp"
+                            android:text="@string/plot_sold"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/plot_total"
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/rounded_bg"
+                                android:fontFamily="@font/handlee"
+                                android:paddingStart="12dp"
+                                android:paddingTop="17dp"
+                                android:paddingEnd="12dp"
+                                android:paddingBottom="17dp"
+                                android:text="@string/percentage_example"
+                                android:textAlignment="center"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="16sp" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/handlee"
+                            android:gravity="center"
+                            android:paddingTop="20dp"
+                            android:text="@string/plot_total"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp">
+
+
+                <Button
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/rounded_button"
+                    android:fontFamily="@font/handlee"
+                    android:text="@string/open_map"
+                    android:textColor="@color/main_bg" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/available_plots"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/handlee"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/bellow_plots"
+                android:textAlignment="viewStart"
+                android:textColor="@color/secondary_text"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:id="@+id/section_grid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:animateLayoutChanges="true"
+                    android:background="@android:color/transparent"
+                    android:fadeScrollbars="true"
+                    android:filterTouchesWhenObscured="false"
+                    android:fitsSystemWindows="false"
+                    android:foregroundGravity="center"
+                    android:horizontalSpacing="10dp"
+                    android:overScrollMode="ifContentScrolls"
+                    android:scrollbars="vertical"
+                    android:stretchMode="spacingWidth"
+                    android:verticalScrollbarPosition="defaultPosition"
+                    android:verticalSpacing="10dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/bottom"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/ic_baseline_arrow_downward_24"
+            android:visibility="visible" />
+    </RelativeLayout>
+</FrameLayout>

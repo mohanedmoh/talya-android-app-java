@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:id="@+id/main_layout"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/main_loading"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/colorPrimaryDark"
+        android:scrollbarStyle="outsideOverlay"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frame_fragment_containers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_navigation"
+            android:background="@color/secondary_bg" />
+
+        <com.ss.bottomnavigation.BottomNavigation
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/main_bg">
+
+            <com.ss.bottomnavigation.TabItem
+                android:id="@+id/tab_services"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:tab_icon="@drawable/services_selected"
+                app:tab_text="@string/services"
+                app:tab_text_color="@color/secondary_text"
+                app:unselected_tab_icon="@drawable/services_unselected"
+                app:unselected_tab_text_color="@color/primary_text" />
+
+            <com.ss.bottomnavigation.TabItem
+                android:id="@+id/tab_media"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:tab_icon="@drawable/media_selected"
+                app:tab_text="@string/media"
+                app:tab_text_color="@color/secondary_text"
+                app:unselected_tab_icon="@drawable/media_unselected"
+                app:unselected_tab_text_color="@color/primary_text" />
+
+            <com.ss.bottomnavigation.TabItem
+                android:id="@+id/tab_profile"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:tab_icon="@drawable/account_selected"
+                app:tab_text="@string/profile"
+                app:tab_text_color="@color/secondary_text"
+                app:unselected_tab_icon="@drawable/account_unselected"
+                app:unselected_tab_text_color="@color/primary_text" />
+
+            <com.ss.bottomnavigation.TabItem
+                android:id="@+id/tab_contact_us"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:tab_icon="@drawable/info_selected"
+                app:tab_text="@string/contact_us"
+                app:tab_text_color="@color/secondary_text"
+                app:unselected_tab_icon="@drawable/info_unselected"
+                app:unselected_tab_text_color="@color/primary_text" />
+        </com.ss.bottomnavigation.BottomNavigation>
+    </RelativeLayout>
+</RelativeLayout>
