@@ -1,4 +1,4 @@
-# talya-android-app-java
+# Talya Propertities Application
 # Foobar
 
 Talya application is Android Application based on java and xml
